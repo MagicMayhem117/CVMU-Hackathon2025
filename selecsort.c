@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/time.h>
-
+* selection sort
 void selectionsort(int array[],int size){
     for(int i=size-1;i>=0;i--){
         int min_idx=1;
