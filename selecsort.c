@@ -50,7 +50,7 @@ int main(){
     selectionsort(data,size);
 
     gettimeofday(&tv,&tz);
-    t2=tv.tv_usec;
+    t2=tv.tv_usec:
 
     printf("Sorted array in Ascending order: ");
     printarray(data,size);
